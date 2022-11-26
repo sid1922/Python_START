@@ -15,3 +15,8 @@ True
 1
 False
 """
+number = int (input("Введите день недели от 1 до 7 "))
+if number > 5:
+    print (True)
+else:
+    print(False)
