@@ -10,3 +10,12 @@
 3
 x < 0, y < 0
 """
+a = int(input("Введите момер четверти от 1 до 4 "))
+if a == 1:
+    print("x > 0, y > 0")
+elif a == 2:
+    print("x < 0, y > 0")
+elif a == 3:
+    print("x < 0, y < 0")
+elif a == 4:
+    print("x > 0, y < 0")
