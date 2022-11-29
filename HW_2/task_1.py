@@ -11,3 +11,9 @@
 0.56
 11
 """
+N = float(input("Введите число "))
+sum = 0
+for i in str(N):
+    if i != "." and i != ",":
+        sum += int(i)
+print(sum)
